@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiKiNdY DIGITAL Dimensions</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="icon3.png" rel="icon">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img src="logo.jpg" alt="likindy" style="width: 50px; height: 50px;">
+        </a>
+        <img src="whatsap.png" alt="whatsap" style="width: 30px; height: 30px; float: right;">
+        <img src="tick.png" alt="whatsap" style="width: 30px; height: 30px; float: right;">
+
+        </nav>
+        <nav>
+            <div class="search-container">
+
+                <input type="text" placeholder="Search...">
+                <a href="HOME.html" class="hidden-link">http://likindydigitaldimensions.liveblog365.com/wp-content/uploads/2024/12/PNG.png</a>
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="ismail.png" alt="sir likindy" style="width: 10%; height: 10%;" class="circle-image">
+            <h1 style="color: white;">Welcome to Likindy Website</h1>
+            <p>This is likindy computer training be more then a Professional</p>
+            <p>This is a brief description of our website. We offer [list of services or products].</p>
+            <a href="HOME.html" class="get-started-btn">Get Started</a>
+            <button onclick="showAler()">Open hare</button>
+            <script>
+                function showAler() {
+                    alert("this is my alert box");
+                }
+            </script>
+            <button id="get-in-button">Get In</button>
+            <div id="registration-form" style="display: none;">
+            </div>
+            <script>
+                const getInButton = document.getElementById('get-in-button');
+                const registrationForm = document.getElementById('registration-form');
+
+                getInButton.addEventListener('click', () => {
+                    registrationForm.style.display = 'block';
+                });
+
+                // Add form submission event listener and handling logic here
+            </script>
+    </main>
+
+    <footer>
+        <p style="color: blue;">&copy; 2023 LiKiNdY Website</p>
+    </footer>
+
+</body>
+
+</html>
